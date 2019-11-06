@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/uqbar-project/eg-rapidos-y-objetosos-kotlin.svg?branch=master)](https://travis-ci.org/uqbar-project/eg-rapidos-y-objetosos-kotlin)
