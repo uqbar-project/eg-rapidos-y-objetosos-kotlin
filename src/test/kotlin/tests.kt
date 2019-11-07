@@ -8,7 +8,7 @@ import kotlin.test.*
 import org.junit.Test as test
 
 
-class TestPilotoCabulero() {
+class TestPilotos() {
     val pilotoCabulero = Piloto(cabulero)
     val pilotoAudaz = Piloto(audaz(3))
 
