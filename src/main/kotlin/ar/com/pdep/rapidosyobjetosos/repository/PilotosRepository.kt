@@ -11,7 +11,7 @@ class PilotosRepository {
         private var ultimoId = 1
     }
 
-    fun allInstances() = pilotos.sortBy { it.nombre }
+    fun allInstances() = pilotos.sortedBy { it.nombre }
     fun findByNombre(nombre: String) = pilotos.find { it.nombre.uppercase() == nombre.uppercase() }
     fun findById(id:Int) = pilotos.find {it.id == id}
 
