@@ -1,3 +1,3 @@
 ## Ejemplo Rápidos y objetosos
 
-[![build](https://github.com/uqbar-project/eg-rapidos-y-objetosos-kotlin/actions/workflows/build.yml/badge.svg)](https://github.com/uqbar-project/eg-rapidos-y-objetosos-kotlin/actions/workflows/build.yml)
+[![build](https://github.com/uqbar-project/eg-rapidos-y-objetosos-kotlin/actions/workflows/build.yml/badge.svg)](https://github.com/uqbar-project/eg-rapidos-y-objetosos-kotlin/actions/workflows/build.yml) [![codecov](https://codecov.io/gh/uqbar-project/eg-rapidos-y-objetosos-kotlin/graph/badge.svg?token=94DHEAYQIU)](https://codecov.io/gh/uqbar-project/eg-rapidos-y-objetosos-kotlin)
