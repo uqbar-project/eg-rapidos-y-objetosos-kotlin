@@ -23,3 +23,7 @@ jobs:
       - uses: gradle/gradle-build-action@v2
         with:
           arguments: runOnGitHub
+
+      - uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
