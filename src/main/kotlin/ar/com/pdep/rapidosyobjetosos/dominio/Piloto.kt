@@ -1,6 +1,6 @@
 package ar.com.pdep.rapidosyobjetosos.dominio
 
-class Piloto {
+class Piloto: Entity() {
     var formaConducir = cabulero
 
     fun tiempoDeVuelta(pista: Pista): Number {
