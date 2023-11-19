@@ -24,7 +24,6 @@ abstract class Repository<T: Entity>{
 class PilotosRepository: Repository<Piloto>() {
 
     override fun allInstances() = elementos.sortedBy { it.nombre }
-    fun findByNombre(nombre: String) = elementos.find { it.nombre.uppercase() == nombre.uppercase() }
 
 }
 

@@ -17,12 +17,14 @@ class PilotoBootstrap (val repoPilotos: PilotosRepository, val repoPista: Pistas
     }
 
     fun crearPilotos(){
+        repoPilotos.clear()
         repoPilotos.create(Piloto("Juan María Traverso"))
         repoPilotos.create(Piloto("José Froilán Gonzalez").apply { formaConducir = audaz(2) })
         repoPilotos.create(Piloto("Juan Manuel Fangio").apply { formaConducir = virtuoso(3) })
     }
 
     fun crearPistas(){
+        repoPista.clear()
         repoPista.create(Pista("Monaco", 5))
         repoPista.create(Pista("Estoril", 5))
     }
